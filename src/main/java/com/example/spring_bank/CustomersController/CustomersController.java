@@ -1,6 +1,5 @@
 package com.example.spring_bank.CustomersController;
 
-import com.example.spring_bank.ApiResponse.ApiResponse;
 import com.example.spring_bank.Model.Customer;
 import org.springframework.web.bind.annotation.*;
 
