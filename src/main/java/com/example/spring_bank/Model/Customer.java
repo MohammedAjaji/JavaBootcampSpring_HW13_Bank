@@ -1,6 +1,12 @@
 package com.example.spring_bank.Model;
 
-public class Customers {
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+public class Customer {
 
     private String id, username;
     private double balance;
