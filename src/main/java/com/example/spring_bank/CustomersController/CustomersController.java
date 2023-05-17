@@ -61,8 +61,7 @@ public class CustomersController {
         Customer data = null;
         for (Customer a : customers) {
             if (a.getUsername().equals(username)) {
-                if(a.getBalance() < withdraw){
-                }else {
+                if(a.getBalance() >= withdraw){
                     a.setBalance(a.getBalance() - withdraw);
                     data = a;
                 }
